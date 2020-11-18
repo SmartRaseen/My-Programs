@@ -1,0 +1,16 @@
+Scaffold Table Data
+*******************
+
+1) Paste ConnectionString 
+2) Sourcetree -> Discard other model data.
+3) Add scaffold data in EMSContext.
+
+EMSPortal (Local)
+*********
+
+Scaffold-DbContext -Connection "Server=localhost;Initial Catalog=EmsPortal;Integrated Security=true;;Connection Timeout=30;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -context EMSContext -force
+
+SurveyApp (Dev)
+*********
+
+Scaffold-DbContext -Connection "Server=vmsurvey.northcentralus.cloudapp.azure.com;Initial Catalog=SurveyDev;Persist Security Info=False;User ID=emsadmin;Password=Vuedata@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -context SurveyContext -force

@@ -1,0 +1,41 @@
+
+Package Name : NM3HOMO																				
+
+
+1. NM3HOMO$ADD_CHUNK_TO_ARRAY						-	Done																			
+2. NM3HOMO$ADD_PL_TO_NTE							-	Done										 	
+3. NM3HOMO$APPLY_NON_CLOSING_EDITS					-	Done											
+4. NM3HOMO$CHECK_FOR_HOLES 							-	Done (Fixed) 				  	
+5. NM3HOMO$CHECK_ITEM_HAS_NO_FUTURE_LOCS3			-	Done 					    		
+6. NM3HOMO$CHECK_TEMP_NE_FOR_PNT_OR_CONT			-	Done 					    
+7. NM3HOMO$CLOSE_NO_LONGER_LOCATED					-	Done 					    
+8. NM3HOMO$COALESCE_MEMBERS_CHUNKS					-	Done (Fixed) 				 
+9. NM3HOMO$CR8_MEMS_FOR_EXCL_AFFECTED$IMPL			-	Done (Fixed)		      	
+10. NM3HOMO$CR8_MEMS_FOR_PL_ARR						-	Done (Fixed)		      	
+11. NM3HOMO$CREATE_DUPLICATE_NTE$IMPL				-	Done 						
+12. NM3HOMO$CREATE_MEMBERS							-	Done(Fixed)					
+13. NM3HOMO$DB										-	Done 					    
+------------------------------------------- 
+14. NM3HOMO$DEAL_WITH_HIERARCHICAL					-	(Connect) 			  	  	   Issues with connect prior
+-------------------------------------------
+15. NM3HOMO$END_DATE_EXISTING_LOCATIONS				-	Done 					      
+16. NM3HOMO$END_INV_LOCATION						-	Done (Fixed)			      
+17. NM3HOMO$END_INV_LOCATION_BY_TEMP_NE				-	Done (Fixed)	 		      
+18. NM3HOMO$GET_FUTURE_AFFECTED_INV$IMPL			-	Done 					      
+19. NM3HOMO$GET_LOCS_ON_ELEMENT$IMPL				-	Done 					      
+20. NM3HOMO$GET_UNPROCESSED_CHUNKS$IMPL				-   Done						  
+21. NM3HOMO$HOMO_UPDATE$1							-	Done 					      
+22. NM3HOMO$HOMO_UPDATE$2							-	Done 					      
+23. NM3HOMO$HOMO_UPDATE_HIST						-	Done (Fixed)      		  	  
+24. NM3HOMO$HOMO_UPDATE_OLD							-	Need_To_Fix 		      	  
+25. NM3HOMO$IS_AFFECTED_BY_EXCLUSIVITY$IMPL			-	Done 					      
+----------------------------------------
+26. NM3HOMO$LOCK_DATUMS_MEMBS_FOR_NTE				-	(Script) 			  	       SCRIPT FOR ROW ID NEEDED 
+----------------------------------------
+27. NM3HOMO$MOVE_EDITED_DATUMS_TO_NEW_NTE$IMPL		-	Done 					      
+28. NM3HOMO$PROCESS_MERGE							-	Done (Fixed)			      
+29. NM3HOMO$PROCESS_SPLIT							-	Done (Fixed)			      
+30. NM3HOMO$REPLACE_EXCLUSIVE						-	Done (Fixed)	   	  		  
+31. NM3HOMO$SSMA_Initialize_Package					-	Done					      
+32. NM3HOMO$VALID_XSP_ON_PL$IMPL					-	Need_To_Fix   			  	  
+

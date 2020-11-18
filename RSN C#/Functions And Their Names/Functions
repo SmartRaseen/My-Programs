@@ -1,0 +1,6 @@
+				FormCollection
+			   *****************
+
+Using the FomrCollection class we can capture the form's values within the controller.
+
+We know that there are various ways to collect data from a view to a collection, FomrCollection is one of them

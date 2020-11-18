@@ -1,0 +1,13 @@
+
+Access Specifier 
+****************
+
+Internal 
+********
+
+	Internal is for assembly scope (i.e. only accessible from code in the same .exe or .dll)
+
+Private 
+*******
+
+	Private is for class scope (i.e. accessible only from code in the same class).

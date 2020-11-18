@@ -1,0 +1,52 @@
+	C#	known Concepts			
+	*******************			
+	
+	1. Basic Syntax										
+	2. Data Types										
+	3. Type Conversions									
+	4. Variables	
+	5. Constants		
+	6. Operators			
+	7. Loops											
+	8. Arrays								
+	9. Strings			
+	10. Structure			
+	11. Enum			
+	12. Exception Handling
+	13. Properties
+	14. Constructor
+	15. String Builder
+	16. Interface
+	17. Reflection
+	18. Parameters
+		1. Optional
+		2. Ref 
+		3. Out 
+		4. Param 
+	19. Collections
+		1. Stack
+		2. Queue
+		3. Array List
+	20.	Generic Collections
+		1. List<T>
+		2. Dictionary<TKey, TValue>
+		
+	OOPS
+    ****
+
+	1. Class & Object
+	2. Inheritance
+		1. Single Inheritance
+		2. Multi Level Inheritance
+		3. Hierarchical Inheritance
+	3. Encapsulation
+	4. Abstraction
+	5. Polymorphism
+		Static
+		1. Functional Overloading
+		2. Opeartor Overloading
+		
+		Dynamic
+		1. Abstract 
+		2. Virtual
+	

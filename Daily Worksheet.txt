@@ -1,0 +1,343 @@
+Date : 20 - 08 - 2019
+
+Learn : 
+
+1. How to Copy XML Files and create one directory using System.IO.Directory.CreateDirectory and put the file with some updation.
+
+2. How to identify that 4 parser using document.getElementsByTagName and print that InnerXml.
+
+
+Idea About Tomorrow :
+
+In TestFolder 
+
+Create several Folder with different extension like .txt, but to find only .xml extension and 
+get that data and print into that text file in Log Folder.
+
+**********************************************************************************************************************************************
+
+Date : 21 - 08 - 2019
+
+Learn : Get the path for our created .xml extension files if there is another extension that neglected 
+
+Get the xml files using that four parser and align it,print into the output like your (sample format)
+
+
+Plan for tomorrow 
+
+That output will be printed into the (Log Folder) Text file with configure timer to monitor the data is any updation happen.
+
+**********************************************************************************************************************************************
+
+Date : 22 - 08 - 2019
+
+Learn : Using Padding to align data in proper way, 
+
+Create an path for the destination directory (Log) and .txt where where the data is to be stored. 
+
+Remove for loop and get the parser without loop.
+
+
+Plan for tomorrow 
+
+Write the output data into the .txt file and create configuration for that to monitor with set-timer.
+
+**********************************************************************************************************************************************
+
+Date : 23 - 08 - 2019
+*********************
+
+Learn : Understand the concept of fetching XML parser from directory 
+
+and put that data into destination directory (Log) using XmlConfig (AppSettings)
+
+and set the timer for the entire program to fetching data within every 2 seconds.
+
+
+Plan For Next
+*************
+
+Create table name Job, with the table relations.
+
+Create another one table name EmpHistory with relations.
+
+Get the data from that input files and put into the database.
+
+**********************************************************************************************************************************************
+
+Date : 26 - 08 - 2019
+********************
+
+Learn : Create two table JobTable,  EmpHistoryTable With the relations. 
+
+Given an path using XmlConfig and create an connectionString using SqlConnection then get those five parsed data put into an loop with SqlCommand to get individual value
+
+Plan for tomorrow 
+******************
+
+Store all tha value into the database. 
+
+**********************************************************************************************************************************************
+
+Date : 27 - 08 - 2019
+**********************
+
+Learn : Get XML input data and store into the EmpHistory Table on database,
+
+With the help of generate id value get the value put into Job Table.
+
+If the value is already exist,
+
+print the values are Exist, Otherwise updated the value.
+
+**********************************************************************************************************************************************
+
+Date : 29 - 08 - 19
+*******************
+
+Learn :   
+
+1.  Put proper cases to the specified variable.
+2.  Know the difference between ExecuteNonQuery() and ExecuteReader()
+3.  Passing data, Better to avoid Repetition.
+4.  Using Scalar() to get the single data in database.
+
+Plan For Doing Next
+*********************
+
+1. Update the correction you said.
+2. Create Two Table same like previous task and put CRUD Operation
+3. To Know What is SQL Injection.
+
+**********************************************************************************************************************************************
+
+Date : 03 - 09 - 19
+*******************
+
+Task Update :
+
+Create CRUD operation for two tables (Employee,EmpHistory) and store the data 
+in EmpHistory Table.
+
+Had some exception on Employee while storing data.
+
+Plan For Tomorrow :
+
+Handle that exception and put data into Employee. 
+
+**********************************************************************************************************************************************
+
+Date : 04 - 09 - 19
+*******************
+
+Task Update : 
+
+* Stored input data into both table.
+
+* Data can be used in all (CRUD Operation)
+
+* In Update and Delete Operation are only worked in (Employee Table)
+
+Plan For Tomorrow
+
+* Handle that exception and perform successfully. 
+
+**********************************************************************************************************************************************
+
+Date : 05-09-2019
+		
+Task Update : 
+
+*	Store the input data into Both Table (Employee,Employment_History)
+
+*	Execute Both Operation (Update,Delete) Successfully.
+	
+*	Print the entire table records using (Display) Operation.
+	
+	
+Handle Exception Queries :
+	
+*	Put proper cases to the fields
+	
+*	Give Connection.Open and Close to only, When we need connection.
+	
+*	Only give .ToLower() to the data.
+	
+	
+Plan For Tomorrow
+
+*	Give an intimate to the user for all the input fields.
+
+*	SQL Injection in query.
+	
+*	Give response whether data already exist in database or not.
+
+**********************************************************************************************************************************************
+
+Date : 06-09-2019
+	
+	Learn : Check function for input data already exist or not
+			for all operations.
+			
+	Monday : Output validations,
+			 Display data for single id also,
+			 validate date (From) is earlier than (To).
+			 
+**********************************************************************************************************************************************
+
+Date : 09-09-2019
+
+Learn : 
+	
+	1. How to validate data from the users.
+	2. Retrive data (Single Record and Muliple Record)
+	3. Avoid getting jobid from the user (Using auto-increment JobID)
+	4. Implement Operation properly without getting any exception.
+	
+Plan For Tomorrow :
+
+	* Implement SqlInjection in queries.
+	* Handle Exception in Try,Cache Block.
+	* Use Module For (Code Reuse).
+	
+**********************************************************************************************************************************************
+
+Date : 10-09-2019
+
+Learn : 
+
+* Exception Handling (Using Try Catch Block)
+* Code Reuse.
+* Seperate Class for that fuction.
+
+**********************************************************************************************************************************************
+
+Date : 11-09-2019
+
+Learn :
+	* Validating JobID
+	* Sql Injuction
+	* Validating DateTime
+	
+**********************************************************************************************************************************************
+
+Date : 12-09-2019
+
+Task_Update :
+	
+1. Complete SqlServer
+2. Installing Oracle Database
+3. Installing SQL Developer Download
+
+**********************************************************************************************************************************************
+
+Date : 19 - 09 - 2019
+	
+1. Task Completed 
+	1. Insert 
+	2. Retrieve Operation In Oracle Database.
+2. Plan for tomorrow
+	1. Update
+	2. Delete Operation.
+
+**********************************************************************************************************************************************
+
+Date : 20-09-2019
+
+1. Task Completed
+              1.  Update
+              2.  Delete Operation.
+
+**********************************************************************************************************************************************
+
+Date : 24-09-2019
+
+1.  Upload SQL Server And Oracle CRUD Operation In GitHub.
+
+2. Learn 
+        1.  What Is View
+        2.  Types Of Views
+             * Practice User Defined View With Examples
+
+3. Plan For Tomorrow
+        1. System Defined View
+        2. Stored Procedures
+        3. Function
+
+**********************************************************************************************************************************************
+
+Date : 25-09-2019
+
+Learn :
+	
+Views
+*****
+* using (Sp_HelpText) To get query of that view.
+* using system-defined Stored Procedure (sp_refreshview) To Refresh View.
+* SchemaBinding in view.
+* using (WITH ENCRYPTION) to encrypt view.
+* Check Option in view.
+	
+Stored Procedures
+*****************
+* CREATE PROCEDURE 
+* EXECUTE PROCEDURE using EXEC (sp_name)
+* BEGIN, END
+* ALTER PROCEDURE
+* DROP PROCEDURE	using DROP (sp_name)
+	
+Parameters in Stored Procedures
+*******************************
+* One parameter in stored procedure
+* ALTER Parameters
+* Multiple parameters 
+		
+**********************************************************************************************************************************************
+
+Date : 26-09-2019
+
+Learn : 
+	1. Function
+		* DateTime Function
+		* Scalar Function
+	2.	Indexes
+		* Clustered Index
+		* Non Clustered Index
+		
+Plan For Tomorrow
+	1. View
+	2. Index
+	3. Function
+	4. Stored Procedures In Oracle
+	
+**********************************************************************************************************************************************
+
+Date : 27-09-2019
+
+Learn: 
+	
+1. Stored_Procedure
+2. Views
+3. String Fumction
+4. Packages In Oracle.
+
+**********************************************************************************************************************************************
+
+Date : 30-09-2019 & 01-10-2019
+
+Things Learn :
+
+1. UDT & Type In SQL SERVER
+	1. DataType 
+	2. TableType 
+
+2. UDT & Type In Oracle
+	1. Composite Type/Object Type
+	2. Collection
+		*	Associative Array
+		*	VARRAY
+		*	Nested Table 
+	With Sample Program.
+	
+**********************************************************************************************************************************************
+
